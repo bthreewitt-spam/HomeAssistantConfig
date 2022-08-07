@@ -1,0 +1,62 @@
+show_name: false
+show_icon: true
+show_state: false
+entities:
+  - entity: scene.reciever_power
+    icon: mdi:power
+    tap_action:
+      action: toggle
+    name: ' '
+  - entity: scene.reciever_navigate_up
+    tap_action:
+      action: toggle
+    icon: mdi:chevron-up-box-outline
+    name: ' '
+  - entity: scene.reciever_menu
+    tap_action:
+      action: toggle
+    icon: mdi:menu
+    name: ' '
+  - entity: scene.reciever_navigate_left
+    tap_action:
+      action: toggle
+    icon: mdi:chevron-left-box-outline
+    name: ' '
+  - entity: scene.reciever_ok
+    tap_action:
+      action: toggle
+    icon: mdi:checkbox-blank-circle-outline
+    name: ' '
+  - entity: scene.reciever_navigate_right
+    tap_action:
+      action: toggle
+    icon: mdi:chevron-right-box-outline
+    name: ' '
+  - entity: sun.sun
+    icon: none
+  - entity: scene.reciever_navigate_down
+    tap_action:
+      action: toggle
+    icon: mdi:chevron-down-box-outline
+    name: ' '
+  - entity: sun.sun
+    icon: none
+  - entity: scene.reciever_mute
+    tap_action:
+      action: toggle
+    icon: mdi:volume-off
+    name: ' '
+  - entity: scene.reciever_volume_down
+    tap_action:
+      action: toggle
+    icon: mdi:volume-minus
+    name: ' '
+  - entity: scene.reciever_volume_up
+    tap_action:
+      action: toggle
+    icon: mdi:volume-plus
+    name: ' '
+title: Yamaha Reciever
+type: glance
+state_color: false
+columns: 3

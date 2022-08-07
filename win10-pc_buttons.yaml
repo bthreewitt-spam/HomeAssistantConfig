@@ -1,0 +1,35 @@
+show_name: false
+show_icon: true
+show_state: false
+type: glance
+entities:
+  - entity: button.win10_mediaprevious
+    icon: mdi:skip-previous
+    tap_action:
+      action: toggle
+  - entity: button.win10_mediaplaypause
+    icon: mdi:play-pause
+    tap_action:
+      action: toggle
+  - entity: button.win10_medianext
+    icon: mdi:skip-next
+    tap_action:
+      action: toggle
+  - entity: button.win10_mediamute
+    icon: mdi:volume-mute
+    tap_action:
+      action: toggle
+  - entity: button.win10_mediavolumedown
+    icon: mdi:volume-minus
+    tap_action:
+      action: toggle
+  - entity: button.win10_mediavolumeup
+    icon: mdi:volume-plus
+    tap_action:
+      action: toggle
+  - entity: button.win10_lock
+    icon: mdi:lock
+    tap_action:
+      action: toggle
+title: WIN10 - PC
+columns: 3

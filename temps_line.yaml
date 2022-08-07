@@ -1,0 +1,17 @@
+type: custom:apexcharts-card
+graph_span: 24h
+header:
+  show: true
+  title: Temperature
+  show_states: true
+  colorize_states: true
+series:
+  - entity: sensor.kfnl_temperature
+    name: Outside
+    data_generator: ''
+  - entity: sensor.sensi_169c00_current_temperature
+    name: Home
+    data_generator: ''
+  - entity: sensor.bedroom_thermometer_temperature
+    name: Room
+    data_generator: ''
